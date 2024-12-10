@@ -1,0 +1,12 @@
+{%extends 'base.html'%}
+{% block content%}
+<div id="article1">
+    <div class="art-con">
+        <button class="btn-back"><a href="{% url 'home' %}">Back</a></button><br><br>
+        <div class="a1-content">
+            <h3>{{specific_articles.name}}</h3><hr>
+            <p class="a1-description">{{specific_articles.discription}}</p>
+        </div>
+    </div>
+</div>
+{% endblock content%}

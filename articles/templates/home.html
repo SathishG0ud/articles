@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="home-content">
+        <h1 class="main-head">Todays Article's</h1>
+        <div class="article-content">
+            {% for i in articles_data %}
+                <div class="art1-det">
+                    <h4><a href="{% url 'gen_article' i.id  %}" class="a-title">{{i.name}}</a></h4>
+                    <h6>{{i.discription|truncatechars:50}}</h6>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock%}

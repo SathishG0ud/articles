@@ -1,0 +1,27 @@
+#about-page{
+    /* text-align: center; */
+    padding: 10px;
+}
+.abt-me{
+    font-size: 36px;
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+}
+.about-con{
+    /* border: 2px solid red; */
+    background-color: rgb(245, 232, 164);
+    width: 90%;
+    margin: auto;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 8px 5px grey;
+}
+
+.abt-me:hover{
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    color: transparent;
+    background-clip: text;
+}
